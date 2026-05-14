@@ -169,7 +169,7 @@ else()
     message(STATUS "[JoltC] Local Jolt not found, downloading from GitHub v5.5.0")
     FetchContent_Declare(
         JoltPhysics
-        GIT_REPOSITORY "https://github.com/jrouwe/JoltPhysics"
+        GIT_REPOSITORY "ssh://git@ssh.github.com:443/jrouwe/JoltPhysics.git"
         GIT_TAG v5.5.0
         SOURCE_SUBDIR "Build"
     )
